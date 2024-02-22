@@ -169,10 +169,10 @@ include("header.php");
 <?php include 
 ("obrigado.php");
 ?>
-<section class="inovacoes my-4">
+<section class="inovacoes p-4">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 mt-4">
+            <div class="col-md-6 col-12 mt-4">
                 <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                     <div class="col p-4 d-flex flex-column position-static">
                         <strong class="d-inline-block mb-2 text-primary">Inovação</strong>
@@ -180,30 +180,31 @@ include("header.php");
                         <div class="mb-1 text-muted">Junho 2025</div>
                             <p class="card-text mb-auto">A Lupa Tecnologia, líder em inovação médica, desvenda a cirurgia do futuro: 100% robotizada.</p>
                         </div>
-                        <div class="col-auto d-none d-lg-block">
-                        <img src="assets/images/apresentacao/cirurgia.jpeg" class="img-inovacao" alt="Circle image">
+                        <div class="col- d-none d-lg-block">
+                            <img src="assets/images/apresentacao/cirurgia.jpeg" class="img-inovacao img-fluid" alt="Circle image">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 mt-4">
+                    <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col p-4 d-flex flex-column position-static">
+                            <strong class="d-inline-block mb-2 text-success">Inovação em andamento</strong>
+                            <h3 class="mb-0">As Asas da Autonomia</h3>
+                            <div class="mb-1 text-muted">Dezembro 2027</div>
+                                <p class="mb-auto">A Lupa Tecnologia redefine os limites da aviação com seu avião autônomo.</p>
+                            </div>
+                            <div class="col-md-6 col-12 d-none d-lg-block">
+                                <img src="assets/images/apresentacao/aviacao-autonuma.png" class="img-inovacao" alt="Circle image">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        <div class="col-md-6 mt-4">
-            <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                <div class="col p-4 d-flex flex-column position-static">
-                    <strong class="d-inline-block mb-2 text-success">Inovação em andamento</strong>
-                    <h3 class="mb-0">As Asas da Autonomia</h3>
-                    <div class="mb-1 text-muted">Dezembro 2027</div>
-                        <p class="mb-auto">A Lupa Tecnologia redefine os limites da aviação com seu avião autônomo.</p>
-                    </div>
-                    <div class="col-auto d-none d-lg-block">
-                        <img src="assets/images/apresentacao/aviacao-autonuma.png" class="img-inovacao" alt="Circle image">
-                    </div>
-                </div>
+            <div class="text-center">
+                <button type="button" class="saiba-mais">
+                    <span class="fw-bold">Saiba mais!</span>
+                </button>
             </div>
-        </div>
-    </div>
-        <div class="text-center">
-            <button type="button" class="saiba-mais">
-                <span class="fw-bold">Saiba mais!</span>
-            </button>
         </div>
     </div>
 </section>

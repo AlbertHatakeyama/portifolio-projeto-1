@@ -17,6 +17,15 @@
                             </div>
                         </div>
                     </div>
+                    <div class=" col-md-4 col-12 ">
+                            <div class="links-uteis text-center pr-md-4">
+                                <h5 class="text-white">Links úteis:</h5>
+                               <a href="desenvolvimento-software" class="link-sublinar"><i class="fa-solid fa-share"></i>Desenvolvimento de Software Personalizado</a>
+                               <a href="seguranca-cibernetica" class="link-sublinar"><i class="fa-solid fa-share"></i>Consultoria em Segurança Cibernética</a>
+                               <a href="desenvolvimento-inteligencia-artificial" class="link-sublinar"><i class="fa-solid fa-share"></i>Desenvolvimento de Inteligência Artificial</a>
+                               <a href="manutencao-suporte-tecnico" class="link-sublinar"><i class="fa-solid fa-share"></i>Manutenção e Suporte Técnico</a>
+                            </div>
+                        </div>
                     <div class="col-md-6 col-6 text-center pb-2">
                         <p class="paragrafo-direitos-autorais mb-0 text-2 text-white">©Todos os direitos reservados | <?=date('Y')?></p>
                     </div>
