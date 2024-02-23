@@ -4,7 +4,7 @@
         <div class="direitos-autorais">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4 col-12 text-center">
+                    <div class="col-md-3 col-12 text-center">
                         <img src="assets/images/apresentacao/logo.png" class="logo-footer img-fluid" alt="">
                         <p class="text-white font-weight-bolder">Transformando o futuro, hoje</p>
                     </div>
@@ -17,12 +17,15 @@
                             </div>
                         </div>
                     </div>
-                    <div class=" col-md-4 col-12 ">
+                    <div class=" col-lg-5 col-12 ">
                             <div class="links-uteis text-center pr-md-4">
                                 <h5 class="text-white">Links úteis:</h5>
                                <a href="desenvolvimento-software" class="link-sublinar"><i class="fa-solid fa-share"></i>Desenvolvimento de Software Personalizado</a>
+                               <br>
                                <a href="seguranca-cibernetica" class="link-sublinar"><i class="fa-solid fa-share"></i>Consultoria em Segurança Cibernética</a>
+                               <br>
                                <a href="desenvolvimento-inteligencia-artificial" class="link-sublinar"><i class="fa-solid fa-share"></i>Desenvolvimento de Inteligência Artificial</a>
+                               <br>
                                <a href="manutencao-suporte-tecnico" class="link-sublinar"><i class="fa-solid fa-share"></i>Manutenção e Suporte Técnico</a>
                             </div>
                         </div>
