@@ -1,7 +1,7 @@
 
     <!-- FOOTER -->
-    <section class="footer-carbono py-4">
-        <div class="direitos-autorais">
+    <section class="footer-carbono py-4 ">
+        <div class="direitos-autorais ">
             <div class="container">
                 <div class="row">
                     <div class="col-md-3 col-12 text-center">
@@ -18,19 +18,23 @@
                         </div>
                     </div>
                     <div class=" col-lg-5 col-12 ">
-                            <div class="links-uteis text-center pr-md-4">
-                                <h5 class="text-white">Links úteis:</h5>
-                               <a href="desenvolvimento-software" class="link-sublinar"><i class="fa-solid fa-share"></i>Desenvolvimento de Software Personalizado</a>
-                               <br>
-                               <a href="seguranca-cibernetica" class="link-sublinar"><i class="fa-solid fa-share"></i>Consultoria em Segurança Cibernética</a>
-                               <br>
-                               <a href="desenvolvimento-inteligencia-artificial" class="link-sublinar"><i class="fa-solid fa-share"></i>Desenvolvimento de Inteligência Artificial</a>
-                               <br>
-                               <a href="manutencao-suporte-tecnico" class="link-sublinar"><i class="fa-solid fa-share"></i>Manutenção e Suporte Técnico</a>
-                            </div>
+                        <div class="links-uteis text-center pr-md-4">
+                            <h5 class="text-white">Links úteis:</h5>
+                            <a href="desenvolvimento-software" class="link-sublinar"><i class="fa-solid fa-share"></i>Desenvolvimento de Software Personalizado</a>
+                            <br>
+                            <a href="seguranca-cibernetica" class="link-sublinar"><i class="fa-solid fa-share"></i>Consultoria em Segurança Cibernética</a>
+                            <br>
+                            <a href="desenvolvimento-inteligencia-artificial" class="link-sublinar"><i class="fa-solid fa-share"></i>Desenvolvimento de Inteligência Artificial</a>
+                            <br>
+                            <a href="manutencao-suporte-tecnico" class="link-sublinar"><i class="fa-solid fa-share"></i>Manutenção e Suporte Técnico</a>
                         </div>
-                    <div class="col-md-6 col-6 text-center pb-2">
-                        <p class="paragrafo-direitos-autorais mb-0 text-2 text-white">©Todos os direitos reservados | <?=date('Y')?></p>
+                    </div>
+                    <br><br><br>
+                    <div class="col-md-6 col-6 text-right ">
+                        <p class="paragrafo-direitos-autorais mt-3 text-2 text-white">©Todos os direitos reservados | <?=date('Y')?></p>
+                    </div>
+                    <div class="col-md-6 col-6 text-left pb-2">
+                        <img src="assets/images/apresentacao/logo-ahn.jpeg" class="logo-footer img-fluid" alt="">
                     </div>
                 </div>
             </div>
