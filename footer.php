@@ -30,10 +30,10 @@
                         </div>
                     </div>
                     <br><br><br>
-                    <div class="col-md-6 col-6 text-right ">
-                        <p class="paragrafo-direitos-autorais mt-3 text-2 text-white">©Todos os direitos reservados | <?=date('Y')?></p>
+                    <div class="col-md-6 col-6 text-right mt-5">
+                        <p class="paragrafo-direitos-autorais text-2 text-white">©Todos os direitos reservados | <?=date('Y')?></p>
                     </div>
-                    <div class="col-md-6 col-6 text-left pb-2">
+                    <div class="col-md-6 col-6 text-left mt-3">
                         <img src="assets/images/apresentacao/logo-ahn.jpeg" class="logo-footer img-fluid" alt="">
                     </div>
                 </div>
@@ -42,8 +42,8 @@
     </section>  
     <script src="</assets/js/jquery-3.2.1.slim.min.js"></script>
     <script>window.jQuery || document.write('<script src="</assets/js/jquery-slim.min.js"><\/script>')</script>
-    <script src="</assets/js/popper.min.js"></script>
-    <script src="</assets/js/bootstrap.min.js"></script>
+    <script src="/assets/js/popper.min.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
     <script src="/assets/js/holder.min.js"></script>
     <script src="/assets/js/custom.js"></script>
     <script src="/assets/js/language.js"></script>
