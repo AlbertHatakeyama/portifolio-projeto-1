@@ -1,4 +1,9 @@
 /*CONFIGURAÇÕES GERAIS*/
+:root{
+  --color_1: #0000007F;
+  --color_2: #181F27;
+  --color_3: #ffffff;
+}
 body{ 
   padding: 0rem;
   margin: 0px;
@@ -180,6 +185,7 @@ body{
   width: -webkit-fill-available;
   z-index: -1;
   overflow: hidden;
+  
 }
 
 .text-container {
@@ -217,13 +223,14 @@ body{
 
 .alinhamento-text{
   text-align: -webkit-right;
-  margin-top: 10rem;
+  margin-top: 20rem;
 }
 
 .title-text{
   font-family: "Playfair Display", serif;
   text-align: left;
   font-weight: 800;
+  
 }
 .diferencial-item .text{
   margin-bottom: 0;
@@ -404,34 +411,37 @@ body{
   background-image: url(../images/banner/servicos-banner.jpg);
   background-position: right;
   background-size: cover;
-  height: 85vh; /* Defina a altura do banner aqui */
+  height: 75vh; /* Defina a altura do banner aqui */
 }
 
 .triangulo {
   width: 0;
   height: 0;
-  border-top: 230px solid transparent; /* metade da altura desejada */
-  border-bottom: 250px solid transparent; /* metade da altura desejada */
-  border-left: 230px solid #1A2136; /* HEX: 1A2136 100% */
+  border-top: 230px solid transparent; 
+  border-bottom: 250px solid transparent; 
+  border-left: 230px solid rgba(0, 0, 1, 0.8); 
   position: absolute;
   top: 0;
-  left: 8rem;
-  clip-path: polygon(0 0, 100% 50%, 0 100%); /* cria o triângulo */
+  left: 10rem;
+  clip-path: polygon(0 0, 100% 50%, 0 100%); 
   border-radius: 2rem;
-  margin-top: 2rem;
 }
+*/
+
 .triangulo:before {
   content: "";
   width: 100px;
-  height: 650px; /* altura desejada */
-  background: #0032B4; /* HEX: 0032B4 de 65% */
+  height: 650px;
+  background: #0032B4; 
   position: absolute;
   top: 0;
-  right: -100px; /* ajuste para a posição */
+  right: -100px; 
 }
+
 
 .texto-servicos {
   font-weight: 900;
   text-align: start;
   margin-left: -13rem; 
 }
+

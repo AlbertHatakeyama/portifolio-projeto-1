@@ -28,7 +28,7 @@
                         <a class="nav-link" href="#inicio">Início</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#servicos">Serviços</a>
+                        <a class="nav-link" href="servicos.php">Serviços</a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="#produto">Produtos</a>
@@ -37,7 +37,7 @@
                         <a class="nav-link" href="#orcamento">Orçamento</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#contato">Contato</a>
+                        <a class="nav-link contato" href="#contato">Contato</a>
                     </li>
                 </ul>
             </div>

@@ -52,9 +52,9 @@
         var speed = 200;
 
         var texts = [
-            'futuro promissor',
-            'próspero',
-            'inovador'
+            'organização',
+            'lucro',
+            'qualidade'
         ];
 
         function typeWriter(txt) {
@@ -120,7 +120,7 @@
     </script>
     <script>
         $(document).ready(function() {
-            $('.saiba-mais').click(function() {
+            $('.saiba-mais, .contato').click(function() {
                 $('#formulario').show(); // Exibe o formulário quando o botão é clicado
                 $('html, body').animate({
                     scrollTop: $('#formulario').offset().top // Rola a página até o formulário

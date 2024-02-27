@@ -10,7 +10,7 @@ include("header.php");
             <div class="container mx-auto alinhamento-text">
                 <div class="col-md-6 ">
                     <article id="banner" class="text-white">
-                        <h1 class="title-text text-[calc(2rem_+_1vw)] ">Nossa missão é assegurar que você tenha um<br>
+                        <h1 class="title-text text-[calc(2rem_+_1vw)] ">Nossa missão é assegurar que sua empresa tenha<br>
                             <span class="text-warning">
                                 <span id="texto_digitando"></span>
                                 <span class="pointer ml-1 inline-block h-1 w-5 rounded-full bg-primary"></span>
@@ -208,7 +208,8 @@ include("header.php");
 <section class="inovacoes p-4">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 col-12">
+            <div class="col-md-2"></div>
+            <div class="col-md-4 col-12">
                 <div class="card mb-4 shadow-sm">
                     <img src="assets/images/apresentacao/cirurgia-m.png" class="img-inovacao img-fluid" alt="Circle image">
                     <div class="card-body">
@@ -219,7 +220,7 @@ include("header.php");
                     </div>
                 </div> 
             </div>
-            <div class="col-md-6 col-12">
+            <div class="col-md-4 col-12">
                 <div class="card mb-4 shadow-sm">
                     <img src="assets/images/apresentacao/aviacao-autonuma-m.png" class="img-inovacao img-fluid" alt="Circle image">
                     <div class="card-body">
@@ -230,13 +231,13 @@ include("header.php");
                     </div>
                 </div>
             </div>
+            <div class="col-md-2"></div>
         </div>
             <div class="text-center">
                 <button type="button" class="saiba-mais">
                     <span class="fw-bold">Saiba mais!</span>
                 </button>
             </div>
-        
     </div>
 </section>
 <?php
