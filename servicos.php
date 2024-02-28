@@ -3,8 +3,8 @@ include("header.php");
 ?>
 <section class="d-flex flex-column justify-content-center overflow-hidden position-relative h_min_screen bg_position_center bg_size_cover bg_repeat_no bg_attachment_fixed" data-parent_anime id="servicos">
     <div class="backgrond-services banner-servicos">
-        <div class="triangulo text-right container">
-            <div>
+        <div class="text-center">
+            <div class=" fundo-texto">
                 <h1 class="texto-servicos text-white">Serviços</h1>
             </div>
         </div>
