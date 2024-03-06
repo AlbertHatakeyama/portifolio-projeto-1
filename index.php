@@ -22,7 +22,7 @@ include("header.php");
         </div>
     </div>
 </section>
-<section id="">
+<section class="" id="">
     <article class="container">
         <div class="row mb-0 justify-content-center align-items-center">
             <div class="col-12 col-lg-6 col-xl-6">
@@ -45,7 +45,7 @@ include("header.php");
         </div>
     </article>
 </section>
-<section class="bg-dark py-4" id="diferencial">
+<section class="hidden bg-dark py-4 diferecial" id="diferencial">
     <div class="container">
         <div class="row">
             <div class="col-12">
@@ -91,14 +91,14 @@ include("header.php");
     </div>
 </section>
 <!--Serviços -->
-<section class="bg-white my-4">
+<section class="hidden bg-white my-4">
     <div class="container">
-        <div class="row">
+        <div class="row servicos">
             <div class="card-body col-md-6 col-12 d-flex align-items mb-4 justify-content-center">
                 <a href="" class="text-decoration-none">
                     <div class="text-body p-3 p-md-4 border-ratius border shadow-lg ">
                         <div class="rounded mb-4 d-flex justify-content-center">
-                            <img src="assets/images/apresentacao/desenvolvimento-de-software.jpg" alt="imagem" loading="lazy" class="img-fluid rounded img-produtos">
+                            <img src="assets/images/apresentacao/desenvolvimento-de-software.jpg" alt="imagem" loading="lazy" class="img-fluid rounded hidden img-produtos">
                         </div>
                         <h5 class="fw-bolder mb-0">
                             Desenvolvimento de Software Personalizado
@@ -114,7 +114,7 @@ include("header.php");
                 <a href="" class="text-decoration-none">
                     <div class="text-body p-3 p-md-4 border-ratius border shadow-lg ">
                         <div class="rounded mb-4 d-flex justify-content-center">
-                            <img src="assets/images/apresentacao/seguranca-cibernetica.jpg" alt="imagem" loading="lazy" class="img-fluid rounded img-produtos">
+                            <img src="assets/images/apresentacao/seguranca-cibernetica.jpg" alt="imagem" loading="lazy" class="img-fluid rounded  hidden img-produtos">
                         </div>
                         <h5 class="fw-bolder mb-0">
                             Consultoria em Segurança Cibernética
@@ -130,7 +130,7 @@ include("header.php");
                 <a href="" class="text-decoration-none">
                     <div class="text-body p-3 p-md-4 border-ratius border shadow-lg ">
                         <div class="rounded mb-4 d-flex justify-content-center">
-                            <img src="assets/images/apresentacao/inteligencia-artificial.jpg" alt="imagem" loading="lazy" class="img-fluid rounded img-produtos">
+                            <img src="assets/images/apresentacao/inteligencia-artificial.jpg" alt="imagem" loading="lazy" class="img-fluid rounded hidden img-produtos">
                         </div>
                         <h5 class="fw-bolder mb-0">
                             Desenvolvimento de Inteligência Artificial 
@@ -146,7 +146,7 @@ include("header.php");
                 <a href="" class="text-decoration-none">
                     <div class="text-body p-3 p-md-4 border-ratius border shadow-lg ">
                         <div class="rounded mb-4 d-flex justify-content-center">
-                            <img src="assets/images/apresentacao/manutencao-suporte-tecnico.jpg" alt="imagem" loading="lazy" class="img-fluid rounded img-produtos">
+                            <img src="assets/images/apresentacao/manutencao-suporte-tecnico.jpg" alt="imagem" loading="lazy" class="img-fluid rounded hidden img-produtos">
                         </div>
                         <h5 class="fw-bolder mb-0">
                             Manutenção e Suporte Técnico
