@@ -91,14 +91,14 @@ include("header.php");
     </div>
 </section>
 <!--Serviços -->
-<section class="hidden bg-white my-4">
+<section class="servicos py-5">
     <div class="container">
         <div class="row servicos">
             <div class="card-body col-md-6 col-12 d-flex align-items mb-4 justify-content-center">
-                <a href="" class="text-decoration-none">
+                <a href="desenvolvimento-software.php" class="text-decoration-none">
                     <div class="text-body p-3 p-md-4 border-ratius border shadow-lg ">
                         <div class="rounded mb-4 d-flex justify-content-center">
-                            <img src="assets/images/apresentacao/desenvolvimento-de-software.jpg" alt="imagem" loading="lazy" class="img-fluid rounded hidden img-produtos">
+                            <img src="assets/images/apresentacao/desenvolvimento-de-software.jpg" alt="imagem" loading="lazy" class="img-fluid rounded  img-produtos">
                         </div>
                         <h5 class="fw-bolder mb-0">
                             Desenvolvimento de Software Personalizado
@@ -111,10 +111,10 @@ include("header.php");
                 </a>
             </div>
             <div class="card-body col-md-6 col-12 d-flex align-items mb-4 justify-content-center">
-                <a href="" class="text-decoration-none">
+                <a href="consultoria-seguranca-cibernetica.php" class="text-decoration-none">
                     <div class="text-body p-3 p-md-4 border-ratius border shadow-lg ">
                         <div class="rounded mb-4 d-flex justify-content-center">
-                            <img src="assets/images/apresentacao/seguranca-cibernetica.jpg" alt="imagem" loading="lazy" class="img-fluid rounded  hidden img-produtos">
+                            <img src="assets/images/apresentacao/seguranca-cibernetica.jpg" alt="imagem" loading="lazy" class="img-fluid rounded   img-produtos">
                         </div>
                         <h5 class="fw-bolder mb-0">
                             Consultoria em Segurança Cibernética
@@ -130,10 +130,10 @@ include("header.php");
                 <a href="" class="text-decoration-none">
                     <div class="text-body p-3 p-md-4 border-ratius border shadow-lg ">
                         <div class="rounded mb-4 d-flex justify-content-center">
-                            <img src="assets/images/apresentacao/inteligencia-artificial.jpg" alt="imagem" loading="lazy" class="img-fluid rounded hidden img-produtos">
+                            <img src="assets/images/apresentacao/inteligencia-artificial.jpg" alt="imagem" loading="lazy" class="img-fluid rounded  img-produtos">
                         </div>
                         <h5 class="fw-bolder mb-0">
-                            Desenvolvimento de Inteligência Artificial 
+                            Desenvolvimento de Inteligência Artificial
                         </h5>            
                         <span class="d-block mt-3 fw-semibold text-primary hover_color">
                             <i class="fa-solid fa-hammer fa-fw"></i>
@@ -146,7 +146,7 @@ include("header.php");
                 <a href="" class="text-decoration-none">
                     <div class="text-body p-3 p-md-4 border-ratius border shadow-lg ">
                         <div class="rounded mb-4 d-flex justify-content-center">
-                            <img src="assets/images/apresentacao/manutencao-suporte-tecnico.jpg" alt="imagem" loading="lazy" class="img-fluid rounded hidden img-produtos">
+                            <img src="assets/images/apresentacao/manutencao-suporte-tecnico.jpg" alt="imagem" loading="lazy" class="img-fluid rounded img-produtos">
                         </div>
                         <h5 class="fw-bolder mb-0">
                             Manutenção e Suporte Técnico
@@ -158,11 +158,6 @@ include("header.php");
                     </div>
                 </a>
             </div>
-        </div>
-        <div class="text-center ">
-            <button type="button" class="saiba-mais">
-                <span class="fw-bold" >Saiba mais!</span>
-            </button>
         </div>
     </div>
 </section>
@@ -233,11 +228,11 @@ include("header.php");
             </div>
             <div class="col-md-2"></div>
         </div>
-            <div class="text-center">
-                <button type="button" class="saiba-mais">
-                    <span class="fw-bold">Saiba mais!</span>
-                </button>
-            </div>
+        <div class="text-center">
+            <button type="button" class="saiba-mais">
+                <span class="fw-bold">Saiba mais!</span>
+            </button>
+        </div>
     </div>
 </section>
 <?php

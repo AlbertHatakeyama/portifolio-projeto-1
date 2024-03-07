@@ -46,7 +46,8 @@
     <script src="/assets/js/bootstrap.min.js"></script>
     <script src="/assets/js/holder.min.js"></script>
     <script src="/assets/js/custom.js"></script>
-    <script src="/assets/js/language.js"></script>
+    <script src="/assets/js/anime.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/animejs"></script>
     <script>
         var i = 0;
         var speed = 200;
@@ -143,6 +144,18 @@
 
         element.forEach((el) => myObserver.observe(el))
     </script>
+     <script>    
+        anime({
+        targets: '.box', // Alvos da animação
+        translateX: 250, // Movimento horizontal
+        translateY: 100, // Movimento vertical
+        rotate: '1turn', // Rotação de 1 volta
+        backgroundColor: '#FFF', // Alterar a cor de fundo
+        duration: 2000, // Duração da animação em milissegundos
+        easing: 'easeInOutQuad', // Tipo de easing
+        loop: true // Repetir a animação
+        });
+  </script>
 
 
     </body>
