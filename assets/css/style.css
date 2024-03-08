@@ -411,6 +411,10 @@ body{
   background-position: top;
   background-size: cover;
   height: 75vh;
+  padding: 1rem;
+}
+.text-h2{
+  padding: 1rem;
 }
 
 .fundo-cab-servicos {
@@ -430,11 +434,13 @@ body{
   margin-top: 7rem;
 }
 
-.desenvolvimento-software-img{
+.serviços-img{
   height: 500px;
   border-radius: 2rem;
   box-shadow: 0 4px 8px 0 rgba(0,  0, 0, 0.7), 0 6px 3rem
-  
+}
+.borda-r{
+  border-radius: 2rem;
 }
 
 .features-item {
@@ -455,10 +461,18 @@ body{
     background-color: #ffffff;
     color: #000000;
   }
-
   .icon i{
     font-size: 45px;
   }
+  /*Ciber-segurança*/
+  .ciberseguranca{
+    background-image: url(../images/banner/seguranca-ciber.jpg);
+    background-position: top;
+    background-size: cover;
+    height: 75vh;
+  }
+
+
 
 
   
@@ -473,6 +487,9 @@ hr{
   }
   .alinhamento-text{
     margin-top: 10rem;
+  }
+  .text-h2{
+    padding: 0px;
   }
 }
 

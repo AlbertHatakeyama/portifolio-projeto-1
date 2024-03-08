@@ -12,7 +12,7 @@ include("header.php");
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-12 text-center text-white">
-                <h2><span class="bg-secondary p-2 rounded">Desenvolvimento de Software</span></h2>
+                <h2><span class="bg-secondary text-h2 rounded">Desenvolvimento de Software</span></h2>
             </div>
         </div>
     </div>
@@ -21,7 +21,7 @@ include("header.php");
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-12 text-center">
-                <img src="assets/images/apresentacao/desevolvimento-software.jpg" alt="" class="desenvolvimento-software-img img-fluid">
+                <img src="assets/images/apresentacao/desevolvimento-software.jpg" alt="" class="serviços-img img-fluid">
             </div>
             <div class="col-md-6 col-12 text-start ">
                 <h4 class="mt-3">A importancia de Software na sua empresas</h4>
@@ -48,7 +48,7 @@ include("header.php");
         <div class="row">
             <div class="col-md-12 col- col-12 text-center">
                 <h2>Sistema bem feito </h2>
-                <h5>Pode ajudar muito em </h5>
+                <h5 class="my-4">Pode ajudar muito em </h5>
             </div>
             <div class="col-lg-3 col- col-12">
                 <div class="features-item my-2">
