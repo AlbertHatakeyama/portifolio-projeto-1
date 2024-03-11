@@ -34,7 +34,7 @@
                         <a class="nav-link" href="orcamento.php">Orçamento</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link contato saiba-mais">Contato</a>
+                        <a class="nav-link contato">Contato</a>
                     </li>
                 </ul>
             </div>
