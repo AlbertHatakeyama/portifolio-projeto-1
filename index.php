@@ -127,7 +127,7 @@ include("header.php");
                 </a>
             </div>
             <div class="card-body col-md-6 col-12 d-flex align-items mb-4 justify-content-center">
-                <a href="" class="text-decoration-none">
+                <a href="desenvolvimento-ia-ml.php" class="text-decoration-none">
                     <div class="text-body p-3 p-md-4 border-ratius border shadow-lg ">
                         <div class="rounded mb-4 d-flex justify-content-center">
                             <img src="assets/images/apresentacao/inteligencia-artificial.jpg" alt="imagem" loading="lazy" class="img-fluid rounded  img-produtos">
@@ -143,7 +143,7 @@ include("header.php");
                 </a>
             </div>
             <div class="card-body col-md-6 col-12 d-flex align-items mb-4 justify-content-center">
-                <a href="" class="text-decoration-none">
+                <a href="manutencao-sup-tecnico.php" class="text-decoration-none">
                     <div class="text-body p-3 p-md-4 border-ratius border shadow-lg ">
                         <div class="rounded mb-4 d-flex justify-content-center">
                             <img src="assets/images/apresentacao/manutencao-suporte-tecnico.jpg" alt="imagem" loading="lazy" class="img-fluid rounded img-produtos">

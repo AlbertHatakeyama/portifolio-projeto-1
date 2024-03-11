@@ -1,14 +1,10 @@
 <?php
 include("header.php");
 ?>
-<section class="ciberseguranca">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 col-12 text-center">
-                <div class="fundo-slogan">
-                    <h1 class="text-white">Consultoria em Segurança Cibernética</h1>
-                </div>
-            </div>
+<section class="desenvovimento-ia">
+    <div class="row">
+        <div class="container fundo-slogan fundo-cab-portifolio text-center ">
+            <h1 class="text-white">Desenvolvimento de Inteligência Artificial </h1>
         </div>
     </div>
 </section>
@@ -16,7 +12,7 @@ include("header.php");
     <div class="container py-5">
         <div class="row">
             <div class="col-12 text-center text-white">
-                <h2><span class="bg-secondary text-h2 rounded">Segurança Cibernética</span></h2>
+                <h2><span class="bg-secondary text-h2 rounded">Inteligência Artificial e Machine Learning</span></h2>
             </div>
             <div class="col-md-6 col-12 my-5">
                 <h3>Importancia da Privacidade dos seus dados</h3>
@@ -39,7 +35,7 @@ include("header.php");
                 </div>
             </div>
             <div class="col-md-6 col-12 my-5">
-                <img src="assets/images/apresentacao/ciber-seguranca2.jpg" alt="" class="img-fluid serviços-img">
+                <img src="assets/images/apresentacao/desenvolvimento-ia.jpg" alt="" class="img-fluid  borda-r">
             </div>
         </div>
     </div>
@@ -48,9 +44,10 @@ include("header.php");
     <div class="container mt-5">
         <div class="row">
             <div class="col-md-6 col-12 ">
-                <img src="assets/images/apresentacao/ciber-seguranca.jpg" alt="" class="img-fluid borda-r">
+                <img src="assets/images/apresentacao/desenvolvimento-ia2.jpg" alt="" class="img-fluid borda-r">
             </div>
             <div class="col-md-6 col-12 pt-5 text-white">
+                <h3> Machine Learning</h3>
                 <p>
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                     <br>
@@ -68,70 +65,20 @@ include("header.php");
         </div>
     </div>
 </section>
-<section>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 col-12">
-                <h3 class="fw-bold fs-4 text-white">Nossa Solução de Segurança Cibernética</h3>
-            </div>
-            <div class="col-lg-3 col- col-12">
-                <div class="features-item my-2">
-                    <div class="icon">
-                        <i class="fa-solid fa-microchip"></i>
-                        <h2>Lorem ipsum</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col- col-12">
-                <div class="features-item my-2">
-                    <div class="icon">
-                        <i class="fa-brands fa-connectdevelop"></i>
-                        <h2>Lorem ipsum</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col- col-12">
-                <div class="features-item my-2">
-                    <div class="icon">
-                        <i class="fa-solid fa-database"></i>
-                        <h2>Lorem ipsum</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col- col-12">
-                <div class="features-item my-2">
-                    <div class="icon">
-                        <i class="fas fa-edit"></i>
-                        <h2>Lorem ipsum</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="text-center my-5 ">
-            <button type="button" class="saiba-mais">
-                <span class="fw-bold">Saiba mais!</span>
-            </button>
-        </div>
-    </div>
-</section>
-<section class="section-cirber py-5">
+<section class="py-5">
     <div class="container">
         <div class="row ">
             <div class="col-md-6 col-12">
                 <div class="overview-image">
-                    <img src="assets/images/apresentacao/choose-1.png" class="img-fluid" alt="image">
+                    <img src="assets/images/apresentacao/desenvolvimento-ia3.jpg" class="img-fluid" alt="image">
                 </div>
             </div>
-            <div class="col-md-6 col-12 text-white py-5">
+            <div class="col-md-6 col-12 text-dark py-5 ">
                 <div class="overview-content">
                     <h6 class="sub-title">Why Choose Us?</h6>
                     <h2>Safeguard Your Brand with Cyber Security and IT Solutions</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <ul class="features-list">
+                    <ul class="features-list fw-semibold">
                         <li> <span>Remote IT Assistance</span></li>
                         <li> <span>Cloud Services</span></li>
                         <li> <span>Managed IT Service</span></li>

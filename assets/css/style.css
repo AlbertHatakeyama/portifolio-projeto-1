@@ -3,6 +3,7 @@
   --color_1: #0000007F;
   --color_2: #181F27;
   --color_3: #ffffff;
+  --box-shadow-color: rgb(82 90 101 / 10%)
 }
 body{ 
   padding: 0rem;
@@ -476,9 +477,78 @@ body{
   }
 
 
-
-
+  .features-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
   
+  .features-list li {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    transition: background-color 1s, color 1s;
+  }
+  
+  .features-list li::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: #9989ff;
+    transition: left 0.3s;
+  }
+  
+  .features-list li:hover::before {
+    left: 0;
+  }
+  
+  .features-list li span {
+    display: block;
+    padding: 10px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .features-list li:hover span {
+    color: white;
+  }
+
+  /*Desenvolvimento de Inteligência Artificial*/
+  .desenvovimento-ia{
+    background-image: url(../images/banner/desenvolvedor-ia.jpg);
+    background-position: bottom;
+    background-size: cover;
+    height: 75vh;
+    padding: 1rem;
+  }
+  /*Manutenção e Suporte Técnico*/
+  .manutencao-sup{
+    background-image: url(../images/banner/manutencao-servicos.jpg);
+    background-position: bottom;
+    background-size: cover;
+    height: 75vh;
+    padding: 1rem;
+  }
+  .icon-box {
+    padding: 20px 30px;
+    background-color: #ffffff;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    border-radius: 8px;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    color: var(--text-color);
+    box-shadow: -1px 5px 20px 0px var(--box-shadow-color);
+}
+  
+
 hr{
   border-top: 18px dotted rgb(0, 0, 0)
 }

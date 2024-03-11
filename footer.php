@@ -48,6 +48,8 @@
     <script src="/assets/js/custom.js"></script>
     <script src="/assets/js/anime.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/animejs"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
     <script>
         var i = 0;
         var speed = 200;
