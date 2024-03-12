@@ -564,5 +564,10 @@ hr{
   .text-h2{
     padding: 0px;
   }
+  .texto-servicos {
+    font-weight: 500;
+    margin-bottom: 3rem;
+    padding: 0;
+  }
 }
 

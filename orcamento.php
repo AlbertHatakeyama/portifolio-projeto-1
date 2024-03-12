@@ -23,8 +23,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['nome']) && isset($_POS
     echo "<p><strong>Prazo:</strong> $prazo</p>";
 } else {
     // Caso os dados não tenham sido recebidos corretamente, exibe uma mensagem de erro
-    echo "<h2>Ocorreu um erro</h2>";
-    echo "<p>Por favor, preencha todos os campos do formulário.</p>";
+     "<h2>Ocorreu um erro</h2>";
+    "<p>Por favor, preencha todos os campos do formulário.</p>";
 }
 ?>
 
@@ -83,9 +83,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['nome']) && isset($_POS
         </div>
     </div>
 </section>
-<?php
-include("obrigado.php")
-?>
+
 <?php
 include("footer.php")
 ?>
